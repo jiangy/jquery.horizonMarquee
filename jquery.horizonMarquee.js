@@ -23,7 +23,7 @@
 				"step" : 1, // 自动滚动或点击pre、next按钮时滚动元素的数量
 				"duration" : 1000, // 单次滚动持续时间
 				"interval" : 2000, // 自动滚动间隔时间
-				"autoplay" : true, // 是否自动滚动
+				"autoplay" : true // 是否自动滚动
 			};
 			$.extend(settings, $.fn.horizonMarquee.defaults, configs);
 			var pre = $(settings.pre, this);
